@@ -27,6 +27,7 @@
 ## Diagrama ER
 
 ```mermaid
+
 erDiagram
     CLIENTE ||--o{ VEICULO : possui
     VEICULO ||--o{ ORDEM_SERVICO : possui
@@ -50,7 +51,6 @@ erDiagram
         string descricao
         int id_veiculo FK
     }
-
 
 CREATE TABLE cliente (
     id_cliente INT PRIMARY KEY,
