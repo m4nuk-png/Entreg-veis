@@ -26,7 +26,6 @@
 
 ## Diagrama ER
 
-```mermaid
 
 erDiagram
     CLIENTE ||--o{ VEICULO : possui
